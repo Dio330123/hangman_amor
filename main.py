@@ -1,6 +1,6 @@
 import streamlit as st
 
-frase = 'NAMORA COMIGO?'
+frase = 'CASA COMIGO?'
 
 
 def img():
@@ -82,9 +82,9 @@ def jogar():
 
     for i, col in enumerate(columns):
         with col:
-            if i == 6:
+            if i == 4:
                 st.subheader(' ')
-            elif i == 13:
+            elif i == 11:
                 st.subheader('?')
             else:
                 st.subheader(st.session_state.frase_completa[i])
